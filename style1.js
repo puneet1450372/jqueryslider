@@ -1,8 +1,9 @@
 var s;
 var x;
-function page(count){
-    $('figure').css('left', -count + "%");
-   var z=count/100;
+function page(c){
+    $('figure').css('left', -c + "%");
+   var z=c/100;
+    x=c;
     $('span').removeClass('active');
     $('span:nth-child('+(z+1)+')').addClass("active");
     
@@ -54,6 +55,6 @@ var y = $('img').length;
             function stop(){
                    clearInterval(s);
                 }
-             $('.next,.pre,figure').on({mouseenter:stop,mouseleave:start});  
+             $('.next,.pre,.pagination,figure').on({mouseenter:stop,mouseleave:start});  
 });
 
