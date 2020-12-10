@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-figure img {
+img {
     float: left;
     position: relative;
-    opacity: 0.6;
+    
     
 }
 
