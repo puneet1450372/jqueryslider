@@ -38,13 +38,13 @@ body{
     color:white;
     outline: none;
     opacity: 0.8;
-    margin-left: 15px;
+    margin-left:6%;
 }
 
 .next {
     position: absolute;
     z-index: 100;
-    left: 94%;
+    left: 88%;
     margin-top: 20%;
     font-size: 60px;
     border-radius:10px;
